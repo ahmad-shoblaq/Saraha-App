@@ -1,0 +1,30 @@
+{
+  "name": "saraha",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "node --env-file=configs/local.env --watch ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.6.2",
+    "file-type": "^22.0.1",
+    "google-auth-library": "^10.9.0",
+    "joi": "^18.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.4",
+    "multer": "^2.2.0",
+    "nanoid": "^6.0.1",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^9.0.3"
+  }
+}
